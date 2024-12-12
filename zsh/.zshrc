@@ -17,11 +17,12 @@ do
   source $file
 done
 
-eval "$(direnv hook zsh)"
-
-# tmux new-session -A -s main
+# eval "$(direnv hook zsh)"
 
 # To customize prompt, run `p10k configure` or edit ~/.p10k.zsh.
 [[ ! -f ~/.p10k.zsh ]] || source ~/.p10k.zsh
 
-eval $(thefuck --alias)
+
+
+# Created by `pipx` on 2024-12-10 08:24:03
+export PATH="$PATH:/home/flap/.local/bin"
