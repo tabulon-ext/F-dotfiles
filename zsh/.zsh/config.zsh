@@ -14,6 +14,7 @@ export VISUAL=nano        # for vidir
 # History
 HISTFILE=~/.zsh_history
 HISTSIZE=100000
+HISTTIMEFORMAT="%F %T "
 HIST_STAMPS="mm/dd/yyyy"
 SAVEHIST=100000
 setopt EXTENDED_HISTORY # add timestamps to history
